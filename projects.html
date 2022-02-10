@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Portfolio | Hamza Latif </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 style="font-style: italic"> PERSONAL PROJECTS </h1>
+            </div>
+            
+            <div id="content">
+                <div id="nav">
+                    <ul>
+                        <li> <a href="index.html"> ABOUT ME </a> </li>
+                        <li> <a class="selected" href=""> PROJECTS </a> </li>
+                        <li> <a href="contact.html"> CONTACTS </a> </li>
+                    </ul>
+                </div>
+                
+                <div id="main">
+                    <div id="firstproject">
+                    <table>
+                        <tr>
+                            <td>
+                                <h1 style="font-style: italic"> Pacman 1.1 </h1>
+                                <h2> Java Bootcamp </h2>
+                            </td>
+                            <td>
+                                <p> As my first programming project, to conclude the 2 week Programming Bootcamp at City, i decided to make a game inspired by pacman. This project demonstrates use of arrays, loops, classes and objects. As first scene, the user is presented a menu, where rules and info are shown. To start the game, the user must press the spacebar (keyboard interaction). The game is made of 3 general elements: Pacman, ghosts and food. Each of these has its own class with its own attributes. The initial position of ghosts and food is random, and is stored in a 2d array. There are different types of food which have different effects on the user, e.g. red food is worth 1 point, blue food 10 points and Boost gives a speed boost to the user. The speed at which the ghosts move is randomly generated each game, alongisde their color. Ghosts have a bouncing effect, where as Pacman can go through the border of the canvas. Time and score is displayed at the bottom of the screen, left and right respectively. When pacman touches any of the ghosts, the game is over. If the user reaches 300 points he wins. At the end a screen display either victory or loss, time and score values. To close the game the user has to click anywhere in the canvas (mouse interaction).</p>
+                        
+                                <p style="font-style: italic"> For time purposes, win condition in demo is set to 50 points.</p>
+                    
+                                <p> Check out the code on <a href="https://github.com/HamzaLatif02/Bootcamp_project">Github.</a> </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <video style="border-style: solid; border-color: rgb(0,0,0); border-width: thin" width="450" height="450" controls>
+	                            <source src="videos/projectdemo.mp4" type="video/mp4">
+	                            </video>
+                            </td>
+                            <td>
+                                <img style="border-style: solid; border-color: rgb(0,0,0); border-width: thin" src="images/menu.png" width="250px">
+	                            <img style="border-style: solid; border-color: rgb(0,0,0); border-width: thin" src="images/game.png" width="250px">
+	                            <img style="border-style: solid; border-color: rgb(0,0,0); border-width: thin" src="images/loss.png" width="250px">
+                                <img style="border-style: solid; border-color: rgb(0,0,0); border-width: thin" src="images/win.png" width="250px">
+                            </td>
+                        </tr>
+                    
+                    </table>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id="footer">
+                Copyright &copy; 2021 Hamza Latif
+            </div>
+        </div>
+    </body>
+    
+</html>
